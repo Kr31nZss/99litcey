@@ -1,0 +1,636 @@
+body{
+    background-image: url(https://1366x768.ru/nature/369/369-zakat-doroga-na-plyazh-oboi-priroda-1366x768.jpg);
+}
+.form{
+    border: 2px solid rgba(255, 255, 255, 0.863) ;
+    text-align: center;
+    margin-left: 43% ;
+    margin-right: 50% ;
+    margin-top: 5%;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(174, 208, 238, 0.486);
+    border-radius: 10%;
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+
+}
+
+.form:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+    color: black;
+    background-color: rgba(87, 87, 87, 0.5);
+}
+input{
+    border-radius: 20%;
+    border: solid 1px;
+    margin-bottom: 15%;
+    background-color: rgba(0, 0, 0, 0.219);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    color: aliceblue;
+    padding: 2%;
+    transform: scale(1);
+    transition: all 1s;
+    text-decoration: underline rgb(0, 0, 0) 1px ;
+    text-decoration-thickness: 0.1em;
+    position: relative;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: underline rgb(255, 255, 255) 1px ;
+    text-decoration-thickness: 0.1em;
+    cursor: default;
+}
+.sub{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgba(240, 248, 255, 0);
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 1s;
+    text-decoration: underline rgb(0, 0, 0) 1px ;
+    text-decoration-thickness: 0.1em;
+}
+.sub:hover{
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transition: all 1s;
+    color: aliceblue;
+    background-color: rgba(87, 87, 87, 0.651);
+}
+.social{
+    text-align: center;
+}
+.fa-github{
+    margin-right: 1%;
+    left: 44%;
+    position: absolute;
+    padding-top: 36%;
+}
+.fa-instagram{
+    margin-right: 1%;
+    left: 50%;
+    position: absolute;
+    padding-top: 36%;
+}
+.fa-tiktok{
+    margin-right: 1%;
+    left: 56%;
+    position: absolute;
+    padding-top: 36%;
+}
+.text{
+    border: solid 2px white;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 40%;
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+}
+.text:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+
+}
+.about{
+    position: relative;
+    right: 20%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    color: #00aeff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students{
+    position: relative;
+    font-size: 15px;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    color: #ff0000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parents{
+    position: relative;
+    left: 20%;
+    color: #1d36c4;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+.parents:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+
+.about:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+.left{
+    position: absolute;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: 2px solid rgba(255, 255, 255, 0.863);
+    width: 250px;
+    height: 590px;
+    margin-left: 0%;
+    margin-top: 3%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transition: all 1s;
+}
+.right{
+    position: absolute;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border: 2px solid rgba(255, 255, 255, 0.863);
+    width: 250px;
+    height: 600px;
+    margin-left: 80%;
+    margin-top: 2.5%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transition: all 1s;
+}
+i{
+    margin-left: 5%;
+}
+.ri1{
+    margin-top: 5%;
+    padding: 5%;
+}
+.right:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 1s;
+    border-color: black;
+    background-color: rgba(62, 66, 70, 0.623);
+    color: rgb(192, 231, 247);
+}
+.left:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 1s;
+    border-color: black;
+    background-color: rgba(62, 66, 70, 0.623);
+    color: rgb(192, 231, 247);
+}
+i{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.info1{
+    padding: 5%;
+}
+li{
+    margin-bottom: 10%;
+}
+.about1{
+    position: relative;
+    right: 0%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    background-color: rgba(70, 70, 70, 0.575);
+    color: #00aeff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about1:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 2s;
+    color: white;
+}
+body{
+    background-image: url(https://1366x768.ru/nature/369/369-zakat-doroga-na-plyazh-oboi-priroda-1366x768.jpg);
+}
+.text{
+    border: solid 2px rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 40%;
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+}
+.text:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.about{
+    position: relative;
+    right: 20%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    color: #00aeff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students{
+    position: relative;
+    font-size: 15px;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    color: #ff0000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parents{
+    position: relative;
+    left: 20%;
+    color: #1d36c4;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+.parents:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+
+.about:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+.about1{
+    position: relative;
+    right: 0%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #00aeff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about1:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 2s;
+    color: white;
+}
+.about10{
+    position: relative;
+    left: 40%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #00aeff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boxs{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16.5px;
+    margin-top: 24.4%;
+    height: 680px;
+}
+.box1{
+    width: 400px;
+    border: #ffffff solid 2px;
+    border-radius: 10%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 2%;
+}
+.box2{
+    width: 300px;
+    height: 400px;
+    border: #ffffff solid 2px;
+    border-radius: 10%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 5%;
+}
+.box1:hover,.box2:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.03);
+    transition: all 1s;
+    color: black;
+    background-color: rgba(87, 87, 87, 0.5);
+    color: rgb(192, 231, 247);
+}
+.box2:hover{
+    transform: scale(1);
+    transition: all 1s;
+}
+.right1{
+    width: 370px;
+    border: #ffffff solid 2px;
+    border-radius: 10%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 11%;
+    height: 540px;
+    
+}
+.right1:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1);
+    transition: all 1s;
+    color: black;
+    background-color: rgba(87, 87, 87, 0.5);
+    color: rgb(192, 231, 247);
+}
+.students1{
+    margin-left: 20%;
+    position: relative;
+    background-color:rgb(0, 0, 0, 0.726);
+    left: 20%;
+    top: 1px;
+    color: #ff0000;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students1:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 2s;
+    color: white;
+}
+body{
+    background-image: url(https://1366x768.ru/nature/369/369-zakat-doroga-na-plyazh-oboi-priroda-1366x768.jpg);
+}
+.text{
+    border: solid 2px rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 40%;
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+}
+.text:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.about{
+    position: relative;
+    right: 20%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    color: #00aeff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students{
+    position: relative;
+    font-size: 15px;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    color: #ff0000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parents{
+    position: relative;
+    left: 20%;
+    color: #1d36c4;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+.parents:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+
+.about:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    
+    transition: all 2s;
+    color: white;
+}
+.adres{
+    position: relative;
+    right: 0%;
+    left: 45%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tel,.mail{
+    color: black;
+}
+
+.parents3{
+    position: relative;
+    right: 0%;
+    left: 45%;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #1d36c4;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parents3:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 2s;
+    color: white;
+}
+.boxs3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16.5px;
+    margin-top: 5%;
+}
+.box3{
+    width: 400px;
+    border: #ffffff solid 2px;
+    border-radius: 15%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 2%;
+}
+.box3{
+    margin-top: 1.3%;
+    width: 300px;
+    border: #ffffff solid 2px;
+    border-radius: 15%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 5%;
+}
+.box3:hover,.box2:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+    color: black;
+    background-color: rgba(87, 87, 87, 0.5);
+    color: rgb(192, 231, 247);
+}
+.box2:hover{
+    transform: scale(1);
+    transition: all 1s;
+}
+.right1{
+    width: 370px;
+    border: #ffffff solid 2px;
+    border-radius: 15%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 11%;
+    
+}
+.right1:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+    color: black;
+    background-color: rgba(87, 87, 87, 0.5);
+    color: rgb(192, 231, 247);
+}
+.students1{
+    margin-left: 20%;
+    position: relative;
+    background-color:rgb(0, 0, 0, 0.726);
+    left: 20%;
+    top: 1px;
+    color: #ff0000;
+    border: 2px dotted rgba(255, 255, 255, 0.863);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 10px 6px;
+    transform: scale(1);
+    transition: all 2s;
+    border-radius: 20%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.students1:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    transition: all 2s;
+    color: white;
+}
+.right3{
+    width: 370px;
+    border: #ffffff solid 2px;
+    border-radius: 15%;
+    background-color: rgba(174, 208, 238, 0.486);
+    box-shadow:rgba(0, 0, 0, 0.863) 0px 0px 7px 10px;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 11%;
+    height: 200px;
+    margin-top: 1.5%;
+}
+.right3:hover{
+    box-shadow:rgba(255, 255, 255, 0.863) 0px 0px 10px 7px;
+    border-color: rgba(0, 0, 0, 0.863);
+    transform: scale(1.1);
+    transition: all 1s;
+    color: black;
+    background-color: rgba(87, 87, 87, 0.5);
+    color: rgb(192, 231, 247);
+}
